@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<script language="JavaScript">
+var message="";
+
+function clickIE()
+ 
+{if (document.all)
+{(message);return false;}}
+ 
+function clickNS(e) {
+if
+(document.layers||(document.getElementById&&!document.all))
+{
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers)
+{document.captureEvents(Event.MOUSEDOWN);document.  onmousedown=clickNS;}
+else
+{document.onmouseup=clickNS;document.oncontextmenu  =clickIE;}
+ 
+document.oncontextmenu=new Function("return false")
+</script>
+
+
+
+
+<script language="Javascript">//starting of java script
+
+var Err = "Right Click is disabled "; //A simple variable for holding Error Message
+
+function disableRightClick(btnClick) //Function that will execute on right click
+{
+ if (navigator.appName == "Netscape" && btnClick.which == 3) // Netscape 
+ { 
+  alert(Err);//Alert for display a message
+  return false;
+ }
+ else if (navigator.appName =="Microsoft Internet Explorer" && event.button == 2)  // IE
+ {
+  alert(Err);
+  return false;
+ }
+}
+document.onmousedown = disableRightClick; // Disable the right click
+</script>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DAVAO CITY: A Legislative History</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<style type="text/css">
+<!--
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color:#0000CC;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {
+	color: #999999;
+	font-weight: bold;
+}
+-->
+</style></head>
+
+<body style="margin: 0;">
+
+
+<table width="1200" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td height="275" colspan="3"><img src="images/header.jpg" width="1200"/></td>
+  </tr>
+  <tr>
+    <td width="220" background="images/weave.jpg" valign="top" align="center" rowspan="2">
+      <table width="190" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+      <td height="10"></td>
+      </tr>
+      <tr>
+        <td height="40" valign="middle" align="left" style="border:1px #999999 solid; background-image:url(images/menubg.png); font-family:Arial, Helvetica, sans-serif; font-size:19px; font-weight:bold; color:#FFFFFF; padding-left:22px;"><a href="index.html" style="color:#FFFFFF;">History</a></td>
+      </tr>
+      <tr>
+      <td height="10"></td>
+      </tr>
+      <tr>
+        <td height="40" valign="middle" align="left" style="border:1px #999999 solid; background-image:url(images/menubg.png); font-family:Arial, Helvetica, sans-serif; font-size:19px; font-weight:bold; color:#FFFFFF; padding-left:22px;"><a href="data/legislators.html" style="color:#FFFFFF;">Legislators</a></td>
+      </tr>
+      
+      <tr>
+      <td height="10"></td>
+      </tr>
+           
+            <tr>
+        <td height="40" valign="middle" align="left" style="border:1px #999999 solid; background-image:url(images/menubg.png); font-family:Arial, Helvetica, sans-serif; font-size:19px; font-weight:bold; color:#FFFFFF; padding-left:22px;"><a href="data/laws.html" style="color:#FFFFFF;">Laws</a></td>
+
+      <tr>
+      <td height="10"></td>
+      </tr>
+      <tr>
+        <td height="40" valign="middle" align="left" style="border:1px #999999 solid; background-image:url(images/menubg.png); font-family:Arial, Helvetica, sans-serif; font-size:19px; font-weight:bold; color:#FFFFFF; padding-left:22px;"><a href="data/about.html" style="color:#FFFFFF;">About</a></td>
+      </tr>
+      <tr>
+      <td height="10"></td>
+      </tr>      
+ 
+      <tr style="background-image:url(images/menubg.png); font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#FFFFFF;">
+      
+      </tr>
+      <tr>
+      <td> <img src="images/rpmap2.png">      </td>
+      </tr>
+      </table>    </td>
+    <td colspan="2" background="images/brownbg.jpg" style="padding: 25px 20px 25px 20px; vertical-align:top; text-align:justify; font: 15px Arial, Helvetica, sans-serif;
+">
+      <strong style="font-size:16px; font-style:italic;">HISTORY</strong>
+      
+      <p align="center">&nbsp;</p>
+      <p>CITY OF DAVAO</p>
+      <p>Davao  City is bounded on the north by the Municipality Kapalong, on the  northeast by the Municipalities of Panabo and Sto. Tomas, on the south  by the Municipality of Sta. Cruz (all in the province of Davao), on the  east by the Gulf of Davao, and on the west by Mount Apo and the  Province of Cotabato.</p>
+      <p>It is approximately 588  statute miles southeast of Manila. A city of 2,443.61 square  kilometers, almost 50% of its total land is classified as timberland or  forest and 43% is utilized for agriculture. It extends 30 kilometers  northward, 29 kilometers southward, and 60 kilometers westward to Mt.  Apo.</p>
+      <p>The climate of the city is wholesome and  agreeable. Outside the typhoon belt and protected by the Island of  Samal, its rainfall is evenly distributed throughout the year.</p>
+      <p>Davao  City was built by Don Jose Oyanguren, a deported Spanish adventurer in  1848. By virtue of a decree on February 27, 1848, Don Narciso Claveria,  Governor General of the Archipelago, authorized him to recruit men and  organize a punitive expedition against Datu Bago. With the help of the  Bagobo tribe under Datu Namid, on July 26, 1848, Don Jose defeated Datu  Bago at the mouth of the Davao River, presumably either at Agdao Street  or the northern portion of Governor Carpenter Street in Davao City. It  was the feast day of Sta. Ana after whom the present area of the city  had been named.</p>
+      <p>With the suppression of Muslim  piratical and marauding activities, Don Jose founded a settlement at  the north end of what is now Bolton Street. Its first residents were  his soldiers and their relatives.</p>
+      <p>This settlement  was later wiped out by the inundation of the Davao River; so, they  moved to a higher level where the present town is situated. He named  the village Nueva Vergara or Vergara in honor of his native town in  Spain.</p>
+      <p>The village with a handful of settlers  grew into a lusty community of 1,500 inhabitants in 1894, 6,059 in  1903, 21,204 in 1918, 95,546 in 1939, 111,263 in 1948, 225,750 in 1960  and 390,796 in 1970. In the 2007 census, Davao City had a population of  1,363,330.</p>
+      <p>Davao City was created by virtue of  Commonwealth Act No. 51, approved on October 16, 1936, by President  Manuel L. Quezon. Composed of the former municipal district of Guianga  and the Municipality of Davao, the city government was formally  organized on March 1, 1937.</p>
+      <p>Within three decades,  it has undergone extensive changes in political structure. For the  first time, by virtue of Republic Act No. 1368, dated June 18, 1955,  the office of the mayor and the newly-created offices of the vice-mayor  and the ten city councilors were made elective. Under Republic Act No.  4354, approved June 19, 1965, otherwise known as the Revised Charter of  the City of Davao, its political system came close to the best concept  of the republican system which gave accent to a representative form in  the local government.</p>
+      <p>To date, Davao City is  divided into three (3) congressional districts, which are further  divided into eleven administrative districts containing a total of 184  barangays. The First Legislative District is the Central or Poblacion  District; the Second Legislative District consists of the areas going  north and northeast (from the central, such as, Buhangin, Agdao, Sasa  and farther; and, the Third Legislative District consists of the areas  south, southwest and northwest (Tugbok, Calinan and Toril).</p>
+      <p>Davao  City is a commercial center in southern Mindanao. Through its port,  considered the main harbor along Davao Gulf and the adjacent provinces,  foreign and local vessels load and unload the imports and exports of  the region.</p>
+      <p>Davao City combines the ideal of a  tropical paradise with modern conveniences. Its progressive development  is proven by the existence of banking institutions, hotels and  educational facilities. Some of the tourist attractions in the city are  the 9,610 ft. Mt. Apo occupying 6,900 hectares, Crocodile Farm, Davao  Museum, Camp Domingo Leonor, Talomo Beach and the San Pedro Cathedral.</p>
+      <em>Symbols of the State.</em> <strong>1975. Bureau of Local Government, Department of Local Government and Community Development.</strong>
+      <p>&nbsp;</p>
+      
+    </td>
+  </tr>
+  <tr>
+    <td width="689" height="130" background="images/bluebg.jpg"><div align="left"><img src="images/foot.gif" /></div></td>
+    <td width="291" background="images/bluebg.jpg" style="font: 13px Arial, Helvetica, sans-serif; color:#999999; vertical-align:bottom; padding:0 0 10px 0;"><div align="left" class="style1">
+      <div align="justify"> House of Representatives<br />
+        Congressional Library Bureau<br />
+        Legislative Library Service</div>
+    </div></td>
+  </tr>
+</table>
+</body>
+</html>
